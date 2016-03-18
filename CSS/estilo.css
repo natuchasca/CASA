@@ -1,0 +1,87 @@
+.casa { 
+	width: 100px; 
+	height: 80px; 
+	background: #8AFB3F; 
+	position: relative;
+	left: 30px;
+	top: 200px;
+}
+
+.techo {
+	width: 0; 
+	height: 0; 
+	border-left: 70px solid transparent; 
+	border-right: 70px solid transparent; 
+	border-bottom: 80px solid red;
+	position: absolute;
+	bottom: 100%;
+	left: -20%;
+}
+
+.chimenea { 
+	width: 30px; 
+	height: 80px; 
+	background: red; 
+	position: absolute;
+	bottom: 100%;
+	right: 5%;
+
+}
+
+
+.puerta { 
+	width: 30px; 
+	height: 56px; 
+	background: #F8FC02;
+	top: 0;
+	position: absolute; 
+	left: 35%;
+	top: 30%;
+}
+
+.humo1 { 
+	width: 30px; 
+	height: 30px; 
+	background: #C3FDFC; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	position: absolute;
+	right: 0%;
+	top: -150%;
+}
+
+.humo2 { 
+	width: 30px; 
+	height: 30px; 
+	background: #C3FDFC; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	position: absolute;
+	right: -13%;
+	top: -190%;
+}
+
+.arbol {
+	width: 30px; 
+	height: 80px; 
+	background: green; 
+	-moz-border-radius: 50px; 
+	-webkit-border-radius: 50px; 
+	border-radius: 50px; 
+	position: absolute;
+	right: -60%;
+	top: -40%;
+}
+
+.tronco {
+	height: 40px;
+	width: 10px;
+	background-color: brown;
+	position: absolute;
+	right: 35%;
+	top: 90%;
+
+}
+
